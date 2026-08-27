@@ -1,4 +1,4 @@
-import Scene from "./components/scene";
+import Scene from "./components/Scene";
 
 import CinematicText from "./components/CinematicText";
 import SpiderSidebar from "./components/SpiderSidebar";
