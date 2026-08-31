@@ -33,4 +33,4 @@ export default function Skyline() {
   );
 }
 
-useGLTF.preload("/models/skyline.glb");
+useGLTF(`${import.meta.env.BASE_URL}models/skyline.glb`)

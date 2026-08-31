@@ -21,9 +21,9 @@ export default function SceneCards() {
     title: "Tobey Maguire",
     description:
       "With great power comes great responsibility.",
-    video: "/videos/scene-1.mp4",
-    audio: "/audio/scene-1.mp3",
-    thumbnail: "/images/scene-1.jpg",
+   video: `${import.meta.env.BASE_URL}videos/scene-1.mp4`,
+    audio: `${import.meta.env.BASE_URL}audio/scene-1.mp3`,
+    thumbnail: `${import.meta.env.BASE_URL}images/scene-1.jpg`,
   },
 
   {
@@ -31,9 +31,9 @@ export default function SceneCards() {
     title: "Andrew Garfield",
     description:
       "You are Spider-Man, and I love you guys!",
-    video: "/videos/scene-2.mp4",
-    audio: "/audio/scene-2.mp3",
-    thumbnail: "/images/scene-2.jpg",
+   video: `${import.meta.env.BASE_URL}videos/scene-2.mp4`,
+    audio: `${import.meta.env.BASE_URL}audio/scene-2.mp3`,
+    thumbnail: `${import.meta.env.BASE_URL}images/scene-2.jpg`,
   },
 
   {
@@ -41,9 +41,9 @@ export default function SceneCards() {
     title: "Tom Holland",
     description:
       "If you're nothing without this suit, then you shouldn't have it.",
-    video: "/videos/scene-3.mp4",
-    audio: "/audio/scene-3.mp3",
-    thumbnail: "/images/scene-3.jpg",
+    video: `${import.meta.env.BASE_URL}videos/scene-3.mp4`,
+    audio: `${import.meta.env.BASE_URL}audio/scene-3.mp3`,
+    thumbnail: `${import.meta.env.BASE_URL}images/scene-3.jpg`,
   },
 ];
 

@@ -4,7 +4,7 @@ import * as THREE from "three";
 export default function Moon() {
   const texture = useLoader(
     THREE.TextureLoader,
-    "/textures/moon.jpg"
+    `${import.meta.env.BASE_URL}textures/moon.jpg`
   );
 
   return (

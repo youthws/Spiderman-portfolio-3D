@@ -126,4 +126,4 @@ export default function Spider() {
   );
 }
 
-useGLTF.preload("/models/spiderman.glb");
+useGLTF(`${import.meta.env.BASE_URL}models/spiderman.glb`)

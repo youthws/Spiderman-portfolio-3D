@@ -32,4 +32,4 @@ export default function Helipad() {
   );
 }
 
-useGLTF.preload("/models/helipad.glb");
+useGLTF(`${import.meta.env.BASE_URL}models/helipad.glb`)
